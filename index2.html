@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header class="header catalog_header">
+        <div class="container">
+            <div class="header_top">
+                <div class="header_top-inner">
+                    <div class="header_logo">
+                        <img class="logo" src="img/logo.svg">
+                    </div>
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+                    <div class="header_menu">
+                        <ul class="header_menu-list">
+                            <li><a class="header_menu-link" href="index.html">Главная</a></li>
+                            <li><a class="header_menu-link menu-link--active" href="index2.html">Экскурсии</a></li>
+                            <li><a class="header_menu-link" href="#">Личный кабинет</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom catalog-header_bottom">
+                <div class="header_bottom-inner">
+                    <div class="header_bottom-text">НАШИ ЭКСКУРСИИ</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="tabs">
+        <div class="container">
+            <div class="tabs_inner">
+                <div class="tabs__content">
+                    <div class="tabs__item active" id=tab-1>
+                        <div class="buss_tour">
+                            <form action="">
+                            <div class="buss_select-wrap">
+                            <select class="buss_tour-item buss_tour-item-1 buss_select">
+                                <option value="">
+                                    <p class="buss_item-text">Абхазия</p>
+                                </option>
+                                <option value="">
+                                    <p class="buss_item-text">Сочи</p>
+                                </option>
+                                <option value="">
+                                    <p class="buss_item-text">Краснодар</p>
+                                </option>
+                                <option value="">
+                                    <p class="buss_item-text">Чебаксары</p>
+                                </option>
+                                <option value="">
+                                    <p class="buss_item-text">Санкт-Петербург</p>
+                                </option>
+                            </select>
+                            </div>
+                            </form>
+                            <div class="buss_tour-item buss_tour-item-2">
+                                <input type="text" id="datepicker" placeholder="Выберите дату">
+                            </div>
+                            <form class="view-form" action="">
+                                <div class="buss_select-view">
+                                <select class="buss_view buss_select buss_tour-item">
+                                    <option value="">
+                                        <p class="buss_view-text">АВТОБУСНЫЙ ТУР</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_view-text">ДЖИППИНГ</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_view-text">ЯХТИНГ</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_view-text">КАНЬОНИНГ</p>
+                                    </option>
+                                </select>
+                                </div>
+                            </form>
+                            <form action="">
+                                <div class="buss_select-wrap2">
+                                <select class="buss_tour-item buss_tour-item-3 buss_select">
+                                    <option value="">
+                                        <p class="buss_item-text">1 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">2 человека</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">3 человека</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">4 человека</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">5 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">6 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">7 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">8 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">9 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">10 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">11 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">12 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">13 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">14 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">15 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">16 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">17 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">18 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">19 человек</p>
+                                    </option>
+                                    <option value="">
+                                        <p class="buss_item-text">20 человек</p>
+                                    </option>
+                                </select>
+                                </div>
+                            </form>
+                            <div class="buss_tour-item buss_tour-item-4">
+                                <span>Показать</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id=tab-2>
+                    </div>
+                    <div class="tabs__item" id=tab-3>
+                    </div>
+                    <div class="tabs__item" id=tab-4>
+                    </div>
+                </div>
+            <!-- <div class="tabs__nav">
+                <button class="tabs__nav-btn active" type="button" data-tab="#tab-1"><span>АВТОБУСНЫЙ ТУР</span></button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab-2"><span>ДЖИППИНГ</span></button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab-3"><span>ЯХТИНГ</span></button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab-4"><span>КАНЬОНИНГ</span></button>
+            </div> -->
+        </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog_inner">
+            <div class="catalog-filter">
+                <div class="catalog-filter_title">
+                    Фильтры
+                </div>
+                <div class="catalog-filter_title--mobile">
+                    Фильтры
+                </div>
+                <div class="catalog-filter_items">
+                    <div class="catalog-filter_item">
+                        <div class="filter_item-title filter_item-title-1">
+                            <p>Стоимость</p>
+                            <span class="plus plus-1 active"></span>
+                        </div>
+                        <div class="filter_item-range">
+                            <input type="text" class="js-range-slider" name="my_range" value="" />
+                        </div>
+                    </div>
+                    <!-- <div class="catalog-filter_item">
+                        <div class="filter_item-title filter_item-title-2">
+                            <p>Количество человек</p>
+                            <span class="plus plus-2 active"></span>
+                        </div>
+                        <div class="amount">
+                            <div class="amount_item">1 чел.</div>
+                            <div class="amount_item">2 чел.</div>
+                            <div class="amount_item">3 чел.</div>
+                            <div class="amount_item">4 чел.</div>
+                            <div class="amount_item">5 чел.</div>
+                            <div class="amount_item">6 чел.</div>
+                            <div class="amount_item">7 чел.</div>
+                            <div class="amount_item">8 чел.</div>
+                            <div class="amount_item">9 чел.</div>
+                            <div class="amount_item">10 чел.</div>
+                            <div class="amount_item last_amount">Больше 10 чел.</div>
+                        </div>
+                    </div> -->
+                    <div class="catalog-filter_item">
+                        <div class="filter_item-title filter_item-title-3">
+                            <p>Место</p>
+                            <span class="plus plus-3 active"></span>
+                        </div>
+                        <div class="place">
+                            <div class="place_item">
+                                <input class="place_item-input" type="radio" name="place"> <p>Абхазия</p><br>
+                            </div>
+                            <div class="place_item">
+                                <input class="place_item-input" type="radio" name="place"> <p>Красная поляна</p><br>
+                            </div>
+                            <div class="place_item">
+                                <input class="place_item-input" type="radio" name="place"> <p>Сочи</p><br>
+                            </div>
+                            <div class="place_item">
+                                <input class="place_item-input" type="radio" name="place"> <p>Адлер</p><br>
+                            </div>
+                            <div class="place_item">
+                                <input class="place_item-input" type="radio" name="place"> <p>Адлер</p><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-filter_item">
+                        <div class="filter_item-title filter_item-title-4">
+                            <p>Длительность</p>
+                            <span class="plus plus-4"></span>
+                        </div>
+                    </div>
+                    <div class="catalog-filter_item">
+                        <div class="filter_item-title filter_item-title-5">
+                            <p>Дата</p>
+                            <span class="plus plus-5"></span>
+                        </div>
+                    </div>
+                    <div class="catalog-filter_btns">
+                    <div class="show">
+                        <a class="exurcion-btn catalog_filter-btn" href="#"><span>Показать</span></a>
+                    </div>
+                    <div class="reset">
+                        <p>Сбросить фильтры</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog_items">
+                <div class="catalog_title">Наши туры</div>
+                <div class="catalog_item">
+                    <div class="catalog_item-img">
+                        <img class="catalog-item-img" src="img/catalog-item-img.png">
+                    </div>
+                    <div class="catalog_item-content">
+                        <p class="catalog_item-title">Автобусный тур</p>
+                        <p class="catalog_item-text">Золотое кольцо Абхазии (из Адлера)</p>
+                        <div class="catalog_item-price">
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item">
+                                    <img class="tokens catalog-price-token" src="img/tokens.svg">
+                                    <p class="item-price">1 618 ₽</p>
+                                </div>
+                                <p class="type-ticket-item">Взрослый билет</p>
+                            </div>
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item">
+                                    <img class="tokens catalog-price-token" src="img/tokens.svg">
+                                    <p class="item-price">1 618 ₽</p>
+                                </div>
+                                <p class="type-ticket-item">Взрослый билет</p>
+                            </div>
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item timing">
+                                    <img class="wath-img" src="img/wath.svg">
+                                    <p class="ticket-price">2,5 часа</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="catalog_item-description">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20 мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. Пересечение границы без пересадок...</p>
+                        <div class="catalog_item-btns">
+                            <a class="exurcion-btn catalog_item-btn" href="index3.html"><span>Подробнее</span></a>
+                            <div class="like-btn">
+                                <img class="like-img" src="img/like-img.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item">
+                    <div class="catalog_item-img">
+                        <img class="catalog-item-img" src="img/catalog-item-img.png">
+                    </div>
+                    <div class="catalog_item-content">
+                        <p class="catalog_item-title">Автобусный тур</p>
+                        <p class="catalog_item-text">Золотое кольцо Абхазии (из Адлера)</p>
+                        <div class="catalog_item-price">
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item">
+                                    <img class="tokens catalog-price-token" src="img/tokens.svg">
+                                    <p class="item-price">1 618 ₽</p>
+                                </div>
+                                <p class="type-ticket-item">Взрослый билет</p>
+                            </div>
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item">
+                                    <img class="tokens catalog-price-token" src="img/tokens.svg">
+                                    <p class="item-price">1 618 ₽</p>
+                                </div>
+                                <p class="type-ticket-item">Взрослый билет</p>
+                            </div>
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item timing">
+                                    <img class="wath-img" src="img/wath.svg">
+                                    <p class="ticket-price">2,5 часа</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="catalog_item-description">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20 мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. Пересечение границы без пересадок...</p>
+                        <div class="catalog_item-btns">
+                            <a class="exurcion-btn catalog_item-btn" href="index3.html"><span>Подробнее</span></a>
+                            <div class="like-btn">
+                                <img class="like-img" src="img/like-img.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item">
+                    <div class="catalog_item-img">
+                        <img class="catalog-item-img" src="img/catalog-item-img.png">
+                    </div>
+                    <div class="catalog_item-content">
+                        <p class="catalog_item-title">Автобусный тур</p>
+                        <p class="catalog_item-text">Золотое кольцо Абхазии (из Адлера)</p>
+                        <div class="catalog_item-price">
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item">
+                                    <img class="tokens catalog-price-token" src="img/tokens.svg">
+                                    <p class="item-price">1 618 ₽</p>
+                                </div>
+                                <p class="type-ticket-item">Взрослый билет</p>
+                            </div>
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item">
+                                    <img class="tokens catalog-price-token" src="img/tokens.svg">
+                                    <p class="item-price">1 618 ₽</p>
+                                </div>
+                                <p class="type-ticket-item">Взрослый билет</p>
+                            </div>
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item timing">
+                                    <img class="wath-img" src="img/wath.svg">
+                                    <p class="ticket-price">2,5 часа</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="catalog_item-description">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20 мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. Пересечение границы без пересадок...</p>
+                        <div class="catalog_item-btns">
+                            <a class="exurcion-btn catalog_item-btn" href="index3.html"><span>Подробнее</span></a>
+                            <div class="like-btn">
+                                <img class="like-img" src="img/like-img.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item">
+                    <div class="catalog_item-img">
+                        <img class="catalog-item-img" src="img/catalog-item-img.png">
+                    </div>
+                    <div class="catalog_item-content">
+                        <p class="catalog_item-title">Автобусный тур</p>
+                        <p class="catalog_item-text">Золотое кольцо Абхазии (из Адлера)</p>
+                        <div class="catalog_item-price">
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item">
+                                    <img class="tokens catalog-price-token" src="img/tokens.svg">
+                                    <p class="item-price">1 618 ₽</p>
+                                </div>
+                                <p class="type-ticket-item">Взрослый билет</p>
+                            </div>
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item">
+                                    <img class="tokens catalog-price-token" src="img/tokens.svg">
+                                    <p class="item-price">1 618 ₽</p>
+                                </div>
+                                <p class="type-ticket-item">Взрослый билет</p>
+                            </div>
+                            <div class="catalog_price-content">
+                                <div class="catalog_price-item timing">
+                                    <img class="wath-img" src="img/wath.svg">
+                                    <p class="ticket-price">2,5 часа</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="catalog_item-description">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20 мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. Пересечение границы без пересадок...</p>
+                        <div class="catalog_item-btns">
+                            <a class="exurcion-btn catalog_item-btn" href="index3.html"><span>Подробнее</span></a>
+                            <div class="like-btn">
+                                <img class="like-img" src="img/like-img.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <a class="breadcrumbs_link" href="#"><</a>
+            <a class="breadcrumbs_link active" href="#">1</a>
+            <a class="breadcrumbs_link" href="#">2</a>
+            <a class="breadcrumbs_link" href="#">...</a>
+            <a class="breadcrumbs_link" href="#">5</a>
+            <a class="breadcrumbs_link" href="#">></a>
+        </div>
+        </div>
+    </section>
+    <footer class="footer main-footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_logo">
+                    <img class="footer-logo" src="img/footer-logo.svg">
+                </div>
+                <div class="social social-mobile">
+                    <img class="social-img" src="img/social/vk.svg">
+                    <img class="social-img" src="img/social/inst.svg">
+                    <img class="social-img-3" src="img/social/facebook.svg">
+                </div>
+                <div class="footer_item-mobile">
+                <div class="footer_menu">
+                    <ul class="footer_list">
+                        <li class="footer_list-item">Главная</li>
+                        <li class="footer_list-item">Экскурсии</li>
+                        <li class="footer_list-item">Личный кабинет</li>
+                    </ul>
+                </div>
+                <div class="footer_contact">
+                    <div class="footer_contact-item">
+                        <img class="footer_contact-img" src="img/social/whatsapp.svg">
+                        <p class="footer_contact-text">+7 964 944 18 74</p>
+                    </div>
+                    <div class="footer_contact-item">
+                        <img class="footer_contact-img" src="img/social/telegram.svg">
+                        <p class="footer_contact-text">+7 918 919 98 28</p>
+                    </div>
+                    <div class="footer_contact-item">
+                        <img class="footer_contact-img" src="img/social/telegram.svg">
+                        <p class="footer_contact-text footer_contact-text--bot">Телеграм-бот PeroTravel</p>
+                    </div>
+                    <div class="footer_contact-item contact-item-mobile">
+                        <img class="footer_contact-img" src="img/social/mail.svg">
+                        <p class="footer_contact-text">office@perotravel.ru</p>
+                    </div>
+                </div>
+                </div>
+                <div class="footer_social">
+                    <div class="footer_contact-item">
+                        <img class="footer_contact-img" src="img/social/mail.svg">
+                        <p class="footer_contact-text">office@perotravel.ru</p>
+                    </div>
+                    <div class="social">
+                        <img class="social-img" src="img/social/vk.svg">
+                        <img class="social-img" src="img/social/inst.svg">
+                        <img class="social-img-3" src="img/social/facebook.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/jquery-ui-i18n.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="script-catalog.js"></script>
+</body>
+</html>

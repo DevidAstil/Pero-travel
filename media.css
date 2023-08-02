@@ -1,0 +1,825 @@
+@media(min-width:1700px){
+    .route_slider{
+        max-width:840px;
+        position: absolute;
+        right: 0;
+        height: 650px;
+    }
+    .swiper-button-next{
+        left: 15%;
+        top: 96%;
+    }
+    .swiper-button-prev{
+        left: 0;
+        top: 96%;
+    }
+    .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+        left: 25%;
+        width: 75%;
+        top:96%;
+    }
+    .popular_slider{
+        max-width:1760px;
+    }
+}
+@media(min-width:1550px){
+    /* .review_slider{
+        overflow: inherit;
+    } */
+}
+@media(max-width:1286px){
+    .route{
+        margin-left: 79px;
+    }
+    .route_content{
+        margin-right: 50px;
+    }
+    .gallery_item:first-child{
+        display: none;
+    }
+    .review{
+        padding-left:15px;
+    }
+    .review_slide-text p{
+        padding-right: 17px;
+    }
+    .review_slider{
+        margin-left: 0;
+    }
+    .booking-img{
+        margin-right: 30px;
+        max-width:803px;
+        width: 100%;
+    }
+    .booking_content{
+        position: absolute;
+        right: 5%;
+    }
+    .swiper-button-next2{
+        left: 70px;
+    }
+    .review-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal{
+        left: 150px;
+    }
+}
+@media(max-width:1160px){
+    .footer_logo,.footer_menu,.footer_contact{
+        margin-right: 0;
+    }
+    .footer_inner{
+        justify-content:space-between;
+    }
+    .about-img{
+        width: 504px;
+        height: 749px;
+    }
+    .about_content{
+        left: 25%;
+    }
+}
+@media(max-width:1025px){
+    .des-content{
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+    .des-content_text{
+        max-width:610px;
+    }
+    .description_inner{
+        display:block;
+    }
+    /* .description{
+        padding-left: 79px;
+        padding-right: 79px;
+    } */
+    .ticket_item{
+        margin: 0 auto;
+    }
+    .calendar-img{
+        max-width: 625px;
+        height: 1023px;
+    }
+    .route_inner{
+        display: block;
+    }
+    .route_content{
+        margin-bottom: 80px;
+    }
+    .route_slider{
+        width: 640px;
+        max-width: fit-content;
+        overflow: inherit;
+    }
+    .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+        left: 13%;
+        width: 90%;
+    }
+    .swiper-button-prev{
+        left: 0;
+    }
+    .swiper-button-next{
+        left: 6%;
+    }
+    .costs_ticket{
+        margin-bottom: 40px;
+    }
+    .costs_tickets .ticket_item + .ticket_item {
+        margin-left: auto;
+    }
+    .review_slide{
+        width: 505px;
+        height: 246px;
+    }
+    .review_slide-text p{
+        font-size:12px;
+    }
+    .swiper-button-next2, .swiper-button-prev2{
+        top:426px;
+    }
+    .kinds_content{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .kinds_item{
+        margin: 0 auto;
+        margin-bottom: 40px;
+        width: 610px;
+    }
+    .buss_tour{
+        flex-wrap:wrap;
+    }
+    .buss_tour-item{
+        margin-bottom: 20px;
+    }
+    .catalog_inner{
+        flex-direction:column;
+        align-items: center;
+    }
+    .catalog-filter{
+        width: 610px;
+    }
+    .catalog-filter_items{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .catalog-filter_title--mobile{
+        display:block;
+        font-weight: 700;
+        color:#0499DD;
+        cursor:pointer;
+    }
+    .catalog-filter_title{
+        display:none;
+    }
+}
+@media(max-width:930px){
+    .img_item-5{
+        width: 100%;
+        max-width: 363px;
+        height: auto;
+    }
+    .img_item-6{
+        width: 100%;
+        max-width: 268px;
+        height: auto;
+    }
+    .img_item-7{
+        width: 100%;
+        max-width: 217px;
+        height: auto;
+    }
+    .img_item-8{
+        width: 100%;
+        max-width: 504px;
+        height: auto;
+    }
+    .booking-img{
+        width: 289px;
+        height: 500px;
+        bottom:-550px;
+        position: absolute;
+    }
+    .booking_content{
+        right: 79px;
+    }
+    .footer{
+        position: relative;
+        bottom:-550px;
+    }
+    .popular_slider{
+        margin-left: 15px;
+    }
+    .main-footer{
+        bottom: 0;
+    }
+}
+@media(max-width:860px){
+    .img_item-5{
+        width:205px;
+        height:567px;
+    }
+    .img_item-6{
+        width:267px;
+        height: 264px;
+    }
+    .img_item-7{
+        width: 216px;
+        height: 264px;
+    }
+    .img_item-8{
+        width:490px;
+        height: 283px;
+        margin-top: 16px;
+    }
+    .main-header_bottom-text{
+        font-size: 48px;
+        line-height: 59px;
+    }
+    .header_bottom-transparent{
+        line-height: 86px;
+        max-width:406px;
+    }
+    .main-header_bottom-text::after{
+        top: 35px;
+        left: 85%;
+    }
+    .header_slide-img{
+        width: 295px;
+        height: 187px;
+    }
+    .hover_play-btn{
+        top: 65px;
+        left: 32%;
+    }
+    .header_slider{
+        max-width:460px;
+    }
+    .popular_slide{
+        width: 295px;
+        height: 490px;
+        border-radius: 10px;
+    }
+    .popular_slide-top-text{
+        margin-top: 170px;
+    }
+    /* .popular_slide-btn{
+        top:auto;
+    } */
+}
+@media(max-width:769px){
+    .header_burger{
+        display:block;
+        position:absolute;
+        width: 30px;
+        height: 20px;
+        z-index:3;
+        right: 15px;
+    }
+    .header_burger:before,
+    .header_burger:after{
+        content:'';
+        background-color:#fff;
+        width:100%;
+        height:2px;
+        left: 0;
+        position:absolute;
+        transition:all 0.3s ease 0s;
+    }
+    .header_burger:before{
+        top:0;
+    }
+    .header_burger:after{
+        bottom:0;
+    }
+    .header_burger span{
+        position: absolute;
+        width:100%;
+        background-color: #fff;
+        height:2px;
+        left:0;
+        top:9px;
+        transition:all 0.3s ease 0s;
+    }
+    .header_menu{
+        position:absolute;
+        top: -100%;
+        right:0;
+        height:230px;
+        width: 200px;
+        padding-top:75px;
+        padding-left:10px;
+        transition:all 0.3s ease 0s;
+        overflow:auto;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+    .header_menu.active{
+        top:42px;
+        right: 0;
+    }
+    .header_menu-list{
+        display:block;
+        text-align: center;
+    }
+    .header_menu-list li{
+        margin-bottom: 20px;
+    }
+    .header_list li{
+        margin-bottom:20px;
+    }
+    .header_burger.active:before{
+        transform:rotate(45deg);
+        top:9px;
+    }
+    .header_burger.active:after{
+        transform:rotate(-45deg);
+        bottom:9px;
+    }
+    .header_burger.active span{
+        transform:scale(0);
+    }
+    .header_bottom-text{
+        font-size:36px;
+        max-width:610px;
+    }
+    .main-header_bottom-text{
+        font-size: 48px;
+        line-height: 59px;
+    }
+    .calendar-img{
+        max-width: 479px;
+        height: 877px;
+    }
+    .calendar_content{
+        right: 12%;
+    }
+    .info{
+        display:none;
+    }
+    .about_content{
+        padding: 61px 55px;
+        width: 493px;
+        height: auto;
+    }
+    .forms_item{
+        width: 400px;
+        padding-left: 43px;
+    }
+    .form_input{
+        width: 316px;
+    }
+    .catalog-item-img{
+        height: 444px;
+        width: 238px;
+    }
+    .catalog_item{
+        width: 610px;
+        height: 444px;
+    }
+    .catalog_item-content {
+        padding: 27px 10px;
+    }
+    .item-price{
+        font-size:14px;
+    }
+    .catalog_price-item.timing p{
+        font-size:14px;
+    }
+    .catalog_item-description{
+        max-width:272px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:720px){
+    .route_slider{
+        max-width:460px;
+        overflow: inherit;
+    }
+    .slide-img{
+        width: 280px;
+        height: 540px;
+    }
+    .route_slide{
+        width:280px;
+    }
+    /* .route_slider.swiper-slide{
+        width:280px;
+    } */
+    .slide-text{
+        left: 30px;
+        bottom: 50px;
+    }
+    /* .route_slider .swiper-slide{
+        max-width: 280px;
+    } */
+    .img_item-5{
+        width:180px;
+        height:400px;
+    }
+    .img_item-6{
+        width:180px;
+        height: 186px;
+    }
+    .img_item-7{
+        width: 180px;
+        height: 194px;
+        margin-top: 16px;
+    }
+    .img_item-8{
+        width:380px;
+        height: 260px;
+        margin-top:0;
+        margin-left: -180px;
+    }
+    .gallery_item-top{
+        display:flex;
+        flex-direction: column;
+        margin-left: 17px;
+    }
+    .review_slide{
+        display:block;
+        width: 280px;
+        height: 447px;
+    }
+    .review_slide-img{
+        width: 80px;
+        height: 80px;
+        margin-left: 28px;
+        margin-right: 0;
+    }
+    .review_slider{
+        width: auto;
+        margin-left: 0;
+    }
+    .review_slide-text{
+        margin-left: 28px;
+        margin-top: 20px;
+    }
+    .swiper-button-next2, .swiper-button-prev2{
+        top:610px;
+    }
+    .review-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal{
+        top:79%;
+    }
+    .swiper-pagination.popular-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal{
+        width: 75%;
+        left: 25%;
+    }
+    .swiper-button-prev-popular.swiper-button-prev{
+        left: 0;
+    }
+    .swiper-button-next-popular.swiper-button-next{
+        left: 10%;
+    }
+    .about_content{
+        left: 50%;
+        right: 50%;
+        margin-left: -245px;
+    }
+}
+@media(max-width:650px){
+    .tickets{
+        flex-wrap: wrap;
+    }
+    .ticket_item + .ticket_item{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ticket_item{
+        margin-bottom: 40px;
+    }
+    .calendar_content{
+        right: 0;
+    }
+    .booking-img{
+        position: inherit;
+        width: 100%;
+        margin-right: 0;
+    }
+    .booking_img{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .booking_content{
+        position:inherit;
+        right: 0;
+        margin: 0 auto;
+    }
+    .booking_title{
+        text-align:center;
+    }
+    .booking_inner{
+        flex-direction: column;
+    }
+    .footer{
+        bottom: 0;
+        font-size:12px;
+    }
+    .footer_contact-text--bot{
+        width: 152px;
+    }
+    .footer_inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer_social{
+        display: none;
+    }
+    .contact-item-mobile{
+        display: flex;
+    }
+    .social-mobile{
+        display:block;
+        margin-bottom: 68px;
+    }
+    .footer_menu{
+        text-align: left;
+    }
+    .footer_item-mobile {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .kinds_item{
+        width: 380px;
+    }
+    .kinds_bottom{
+        width: 380px;
+    }
+    .catalog_item{
+        flex-direction: column;
+        width: 380px;
+        height: 690px;
+    }
+    .catalog-item-img {
+        height: 240px;
+        width: 380px;
+    }
+    .catalog_items{
+        margin-left: 0;
+    }
+    .catalog-filter{
+        width: 380px;
+    }
+    .catalog-filter_items{
+        justify-content: center;
+    }
+}
+@media(max-width:550px){
+    .header_bottom-text{
+        font-size:30px;
+        line-height: 40px;
+    }
+    .calendar-img{
+        z-index: 4;
+        width: 304px;
+    }
+    .calendar_content{
+        z-index: 5;
+        width: 100%;
+    }
+    #calendar{
+        width: 100%;
+        margin-left: 0;
+    }
+    .fc .fc-toolbar-title{
+        font-size: 20px;
+    }
+    .fc .fc-col-header-cell-cushion{
+        font-size:14px;
+        line-height: 12px;
+    }
+    .fc .fc-daygrid-day-number{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .calendar_title{
+        font-size:18px;
+        text-align: center;
+        margin:0 auto;
+        margin-bottom: 90px;
+        max-width:323px;
+    }
+    .fc-daygrid-block-event .fc-event-time, .fc-daygrid-block-event .fc-event-title{
+        white-space: normal;
+        max-width:40px;
+        padding-left: 0;
+    }
+    .route_list-item{
+        font-size:12px;
+    }
+    .route_title{
+        font-size:18px;
+        margin-bottom: 64px;
+    }
+    .route{
+        margin-left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .swiper-button-next{
+        left: 11%;
+    }
+    .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+        left: 20%;
+        width: 84%;
+        top:102%;
+    }
+    .route_slide{
+        width: 280px;
+        margin-right: 50px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        top:102%;
+    }
+    .swiper-button-next2{
+        left: 110px;
+    }
+    .review-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal{
+        left: 180px;
+        width: 66%;
+    }
+    .costs_title{
+        font-size:20px;
+    }
+    /* .review_slider{
+        margin-left: 24px;
+        width: 280px;
+    } */
+    .parameter_item{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parameters_buttons .exurcion-btn{
+        margin-right: 0;
+    }
+    .booking{
+        padding-bottom: 150px;
+    }
+    .main-header_bottom-text{
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 12px;
+    }
+    .header_bottom-transparent{
+        font-size: 72px;
+        line-height: 65px;
+    }
+    .main-header_bottom-text::after{
+        left: 50%;
+    }
+    .swiper-button-next-popular.swiper-button-next{
+        left: 10%;
+    }
+    .about_content{
+        padding: 43px;
+        width: 380px;
+        margin-left: -190px;
+    }
+    .about-img{
+        width: 304px;
+        height: 704px;
+    }
+}
+@media(max-width:460px){
+    .header_slider{
+        left: 24px;
+    }
+    .tabs__nav-btn{
+        font-size:12px;
+        line-height: 14px;
+    }
+    .tabs__nav{
+        width: 361px;
+    }
+    .tabs__nav-btn + .tabs__nav-btn{
+        margin-left: 0;
+    }
+}
+@media(max-width:425px){
+    .header_bottom-text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .header_bottom-title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .exurcion-btn{
+        padding:16px 15px;
+    }
+    .description{
+        padding-bottom: 50px;
+    }
+    .img_item-5{
+        width:180px;
+        height:400px;
+    }
+    .img_item-6{
+        width:150px;
+        height: 186px;
+    }
+    .img_item-7{
+        width: 150px;
+        height: 194px;
+        margin-top: 16px;
+    }
+    .img_item-8{
+        width:330px;
+        height: 260px;
+    }
+    .gallery_item-top{
+        margin-left: 0;
+    }
+    .costs{
+        padding-bottom: 0;
+    }
+    .route_slider{
+        width: 279px;
+    }
+    .header_bottom-transparent {
+        font-size: 55px;
+        line-height: 90%;
+    }
+    .main-header_bottom-text::after{
+        left: 30%;
+        top: 20px;
+    }
+    .header_slide{
+        width: 295px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .swiper-button-next-popular.swiper-button-next{
+        left: 10%;
+    }
+    .swiper-button-prev-popular.swiper-button-prev{
+        left: 0%;
+    }
+    .popular_title div{
+        font-size:16px;
+    }
+    .about_content {
+        padding: 20px;
+        width: 310px;
+        left: 50%;
+        margin-left: -155px;
+    }
+    .kinds_item{
+        width: 320px;
+    }
+    .kinds_item-text{
+        font-size:12px;
+    }
+    .kinds_bottom{
+        width: 320px;
+    }
+    .kinds_bottom-text{
+        font-size:12px;
+    }
+    .forms_item{
+        width: 100%;
+        height: 640px;
+        margin-top: 25px;
+        padding-left: 10px;
+    }
+    .forms_inner{
+        justify-content: center;
+    }
+    .form_input{
+        width: 260px;
+        padding-right: 10px;
+    }
+    .form_btn{
+        margin-left: 35px;
+    }
+    .forms{
+        height: 928px;
+    }
+    .tabs__nav-btn{
+        font-size:10px;
+    }
+    .tabs__nav{
+        width: 320px;
+    }
+    .catalog_item{
+        width: 320px;
+    }
+    .catalog-item-img{
+        width: 320px;
+    }
+    .item-price{
+        font-size:12px;
+    }
+    .catalog_price-item.timing p{
+        font-size:12px;
+        line-height: inherit;
+    }
+    .catalog-filter{
+        width: 100%;
+    }
+}
